@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02IOCAndDI/02IOCAndDI.iml" filepath="$PROJECT_DIR$/02IOCAndDI/02IOCAndDI.iml" />
       <module fileurl="file://$PROJECT_DIR$/03bean/03bean.iml" filepath="$PROJECT_DIR$/03bean/03bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/04DI/04DI.iml" filepath="$PROJECT_DIR$/04DI/04DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05annotation/05annotation.iml" filepath="$PROJECT_DIR$/05annotation/05annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springtest.iml" filepath="$PROJECT_DIR$/.idea/springtest.iml" />
     </modules>
   </component>

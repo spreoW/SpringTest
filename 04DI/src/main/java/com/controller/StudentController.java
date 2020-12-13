@@ -11,6 +11,6 @@ public class StudentController {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
         Student student = (Student) context.getBean("student");
-        student.getStudent();
+        System.out.println(student);
     }
 }

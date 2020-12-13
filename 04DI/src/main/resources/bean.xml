@@ -4,9 +4,45 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="student" class="com.bean.Student">
-        <constructor-arg name="name" value="12"/>
-        <constructor-arg name="age" value="12"/>
-        <constructor-arg name="age" value="12"/>
+        <property name="array" >
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </array>
+        </property>
+
+        <property name="strings">
+            <list>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </list>
+        </property>
+
+        <property name="sets">
+            <set>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </set>
+        </property>
+
+        <property name="map">
+            <props>
+                <prop key="aaa">bbb</prop>
+                <prop key="ccc">ccc</prop>
+                <prop key="eee">ddd</prop>
+            </props>
+        </property>
+
+        <property name="properties">
+
+            <map>
+                <entry key="aaa" value="bbb"/>
+                <entry key="ccc" value="ddd"/>
+                <entry key="eee" value="fff"/>
+            </map>
+        </property>
     </bean>
-    <!-- 配置bean的后置处理器,不需要id，IoC容器自动识别是一个BeanPostProcessor -->
 </beans>

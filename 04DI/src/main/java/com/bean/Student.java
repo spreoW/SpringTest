@@ -1,7 +1,7 @@
 package com.bean;
 
 
-import java.util.Date;
+import java.util.*;
 
 /**
  * @author w
@@ -9,17 +9,40 @@ import java.util.Date;
  */
 public class Student {
 
-    private String name;
-    private Integer age;
-    private Date birthday;
+    private String[] array;
+    private List<String> lists;
+    private Set<String> sets;
+    private Map<String,String> map;
+    private Properties properties;
 
-    public Student(String name, Integer age, Date birthday) {
-        this.name = name;
-        this.age = age;
-        this.birthday = birthday;
+    public void setArray(String[] array) {
+        this.array = array;
     }
 
-    public void getStudent(){
-        System.out.println(this.name+" : " + age + " : " + birthday);
+    public void setStrings(List<String> lists) {
+        this.lists = lists;
+    }
+
+    public void setSets(Set<String> sets) {
+        this.sets = sets;
+    }
+
+    public void setMap(Map<String, String> map) {
+        this.map = map;
+    }
+
+    public void setProperties(Properties properties) {
+        this.properties = properties;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "array=" + Arrays.toString(array) +
+                ", lists=" + lists +
+                ", sets=" + sets +
+                ", map=" + map +
+                ", properties=" + properties +
+                '}';
     }
 }
