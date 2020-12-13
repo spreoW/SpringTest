@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/02IOCAndDI/pom.xml" />
         <option value="$PROJECT_DIR$/01beanfactory/pom.xml" />
+        <option value="$PROJECT_DIR$/03bean/pom.xml" />
+        <option value="$PROJECT_DIR$/04DI/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,11 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01beanfactory" />
         <module name="02IOCAndDI" />
+        <module name="03bean" />
+        <module name="04DI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="01beanfactory" target="1.8" />
-      <module name="02IOCAndDI" target="1.8" />
+      <module name="01beanfactory" target="1.5" />
+      <module name="02IOCAndDI" target="1.6" />
+      <module name="03bean" target="1.6" />
+      <module name="04DI" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

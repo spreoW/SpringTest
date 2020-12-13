@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="student" class="com.bean.Student">
+        <constructor-arg name="name" value="12"/>
+        <constructor-arg name="age" value="12"/>
+        <constructor-arg name="age" value="12"/>
+    </bean>
+    <!-- 配置bean的后置处理器,不需要id，IoC容器自动识别是一个BeanPostProcessor -->
+</beans>
