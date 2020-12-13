@@ -2,53 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c483ff-cd70-407d-a68e-5fff197af0ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02IOCAndDI/src/main/java/com/pojo/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/03bean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/MyBeanPostProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/bean/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/controller/StudentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/dao/impl/UserDapImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/pojo/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/java/com/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03bean/src/main/resources/bean.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/bean/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/controller/StudentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/dao/impl/UserDapImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/pojo/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/java/com/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04DI/src/main/resources/bean.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/controller/UserController.class" afterPath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/dao/UserDao.class" afterPath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/dao/UserDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/dao/impl/UserDapImpl.class" afterPath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/dao/impl/UserDapImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/service/UserService.class" afterPath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/service/UserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/02IOCAndDI/target/classes/com/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01beanfactory/01beanfactory.iml" afterPath="$PROJECT_DIR$/01beanfactory/01beanfactory.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/02IOCAndDI.iml" afterPath="$PROJECT_DIR$/02IOCAndDI/02IOCAndDI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/pom.xml" afterPath="$PROJECT_DIR$/02IOCAndDI/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/src/main/java/com/controller/UserController.java" afterPath="$PROJECT_DIR$/02IOCAndDI/src/main/java/com/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/src/main/java/com/dao/impl/UserDapImpl.java" afterPath="$PROJECT_DIR$/02IOCAndDI/src/main/java/com/dao/impl/UserDapImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/src/main/resources/bean.xml" afterPath="$PROJECT_DIR$/02IOCAndDI/src/main/resources/bean.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02IOCAndDI/target/classes/bean.xml" afterPath="$PROJECT_DIR$/02IOCAndDI/target/classes/bean.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springother/src/main/resources/application.xml" afterPath="$PROJECT_DIR$/springother/src/main/resources/application.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/02IOCAndDI/target/" />
     <ignored path="$PROJECT_DIR$/01beanfactory/target/" />
@@ -418,12 +378,20 @@
       <updated>1607650504503</updated>
       <workItem from="1607650506172" duration="793000" />
       <workItem from="1607656578516" duration="6736000" />
-      <workItem from="1607824122039" duration="7809000" />
+      <workItem from="1607824122039" duration="7845000" />
     </task>
+    <task id="LOCAL-00001" summary="2commit">
+      <created>1607851918171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607851918172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15338000" />
+    <option name="totallyTimeSpent" value="15374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,6 +436,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,6 +869,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
