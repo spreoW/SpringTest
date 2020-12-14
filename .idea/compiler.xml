@@ -11,6 +11,7 @@
         <module name="03bean" />
         <module name="04DI" />
         <module name="05annotation" />
+        <module name="07bankTransfer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -19,6 +20,7 @@
       <module name="03bean" target="1.6" />
       <module name="04DI" target="1.5" />
       <module name="05annotation" target="1.6" />
+      <module name="07bankTransfer" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

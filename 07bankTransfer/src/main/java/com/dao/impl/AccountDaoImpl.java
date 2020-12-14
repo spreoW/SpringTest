@@ -1,6 +1,6 @@
 package com.dao.impl;
 
-import com.dao.UserDao;
+import com.dao.IAccountDao;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -8,11 +8,7 @@ import org.springframework.stereotype.Repository;
  * @date 2020/12/10
  */
 @Repository
-public class UserDapImpl2 implements UserDao {
-
-    public UserDapImpl2(){
-        System.out.println("UserDapImpl正在初始化。。。");
-    }
+public class AccountDaoImpl implements IAccountDao {
 
     @Override
     public String getUser(String userName) {
