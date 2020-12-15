@@ -14,7 +14,7 @@ public class TransactionManager {
     }
 
     /**
-     * ¿ªÆôÊÂÎñ
+     * å¼€å¯äº‹åŠ¡
      */
     public void beginTransaction(){
         try {
@@ -24,7 +24,7 @@ public class TransactionManager {
         }
     }
     /**
-     * Ìá½»ÊÂÎñ
+     * æäº¤äº‹åŠ¡
      */
     public void commitTransaction(){
         try {
@@ -34,7 +34,7 @@ public class TransactionManager {
         }
     }
     /**
-     * »Ø¹öÊÂÎñ
+     * å›æ»šäº‹åŠ¡
      */
     public void rollbackTransaction(){
         try {
@@ -44,13 +44,13 @@ public class TransactionManager {
         }
     }
     /**
-     * ÊÍ·Å×ÊÔ´
+     * é‡Šæ”¾èµ„æº
      */
     public void release(){
         try {
-            // Á¬½Ó»¹»ØÁ¬½Ó³Ø
+            // è¿æ¥è¿˜å›è¿æ¥æ± 
             connectionUtils.getThreadConnection().close();
-            // ½â°ó
+            // è§£ç»‘
             connectionUtils.removeConnection();
         } catch (SQLException e) {
             e.printStackTrace();

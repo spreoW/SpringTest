@@ -1,5 +1,7 @@
 package com.utils;
 
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
 import javax.sql.DataSource;
 import java.sql.Connection;
 
@@ -17,7 +19,7 @@ public class ConnectionUtils {
     }
 
     /**
-     * »ñÈ¡µ±Ç°Ïß³ÌµÄÁ¬½Ó
+     * è·å–å½“å‰çº¿ç¨‹çš„è¿æ¥
      */
     public Connection getThreadConnection() {
         try {
