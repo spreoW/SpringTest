@@ -27,5 +27,8 @@
     <bean id="transationManager" class="com.utils.TransactionManager">
         <property name="connectionUtils" ref="connectionUtils" />
     </bean>
+
+    <bean id="beanFactory" class="com.utils.BeanFactory"></bean>
+    <bean id="proxyAccountService" factory-bean="beanFactory" factory-method="getAccountService"></bean>
 </beans>
 

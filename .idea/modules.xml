@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/05annotation/05annotation.iml" filepath="$PROJECT_DIR$/05annotation/05annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/06xmlAndIOC/06xmlAndIOC.iml" filepath="$PROJECT_DIR$/06xmlAndIOC/06xmlAndIOC.iml" />
       <module fileurl="file://$PROJECT_DIR$/07bankTransfer/07bankTransfer.iml" filepath="$PROJECT_DIR$/07bankTransfer/07bankTransfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08Proxy/08Proxy.iml" filepath="$PROJECT_DIR$/08Proxy/08Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springtest.iml" filepath="$PROJECT_DIR$/.idea/springtest.iml" />
     </modules>
   </component>

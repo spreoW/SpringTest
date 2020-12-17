@@ -13,6 +13,7 @@
         <module name="05annotation" />
         <module name="06xmlAndIOC" />
         <module name="07bankTransfer" />
+        <module name="08Proxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -23,6 +24,7 @@
       <module name="05annotation" target="1.6" />
       <module name="06xmlAndIOC" target="1.6" />
       <module name="07bankTransfer" target="1.6" />
+      <module name="08Proxy" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

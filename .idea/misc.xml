@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/05annotation/pom.xml" />
         <option value="$PROJECT_DIR$/07bankTransfer/pom.xml" />
         <option value="$PROJECT_DIR$/06xmlAndIOC/pom.xml" />
+        <option value="$PROJECT_DIR$/08Proxy/pom.xml" />
       </list>
     </option>
   </component>

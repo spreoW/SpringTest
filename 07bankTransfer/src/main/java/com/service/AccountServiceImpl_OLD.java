@@ -13,8 +13,8 @@ import java.util.List;
  * @author wangquan
  * @date 2020/12/14
  */
-@Service("accountService")
-public class AccountServiceImpl implements IAccountService {
+@Service("accountService_OLD")
+public class AccountServiceImpl_OLD implements IAccountService {
 
     @Autowired
     TransactionManager transactionManager;
@@ -42,7 +42,17 @@ public class AccountServiceImpl implements IAccountService {
 
     @Override
     public void updateAccount(Account account) {
-        accountDao.updateAccount(account);
+        try {
+            transactionManager.beginTransaction();
+            accountDao.updateAccount(account);
+            int a = 1/0;
+            transactionManager.commitTransaction();
+        }catch (Exception e){
+            transactionManager.rollbackTransaction();
+            e.printStackTrace();
+        }finally {
+            transactionManager.release();
+        }
     }
 
     @Override
