@@ -24,33 +24,19 @@ public class TestAccount {
 
     @Test
     public void testupdateAccount() throws SQLException {
-        Connection connection = null;
-        try {
-            ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
-            DataSource dataSource = (DataSource) context.getBean("dataSource");
-            IAccountDao accountDao = (IAccountDao) context.getBean("accountDao");
-            Account account = new Account();
-            account.setId(1);
-            account.setMoney(800D);
-            account.setName("aaa");
-            connection = dataSource.getConnection();
-            connection.setAutoCommit(false);
-            accountDao.updateAccount(account);
-            int a = 1/0;
-            System.out.println("111");
-            connection.commit();
-        }catch (Exception e){
-            connection.rollback();
-            throw new RuntimeException(e);
-        }finally {
-            connection.close();
-        }
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+        IAccountService accountService = (IAccountService) context.getBean("accountService");
+        Account account = new Account();
+        account.setId(1);
+        account.setMoney(900D);
+        account.setName("aaa");
+        accountService.updateAccount(account);
     }
 
     @Test
     public void testFindAccountAll(){
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
-        IAccountService accountService = (IAccountService) context.getBean("proxyAccountService");
+        IAccountService accountService = (IAccountService) context.getBean("proxyAccountServiceByCglib");
         Account account = new Account();
         account.setId(1);
         account.setMoney(500D);

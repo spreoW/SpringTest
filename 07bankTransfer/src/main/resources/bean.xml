@@ -30,5 +30,6 @@
 
     <bean id="beanFactory" class="com.utils.BeanFactory"></bean>
     <bean id="proxyAccountService" factory-bean="beanFactory" factory-method="getAccountService"></bean>
+    <bean id="proxyAccountServiceByCglib" factory-bean="beanFactory" factory-method="getAccountServiceByCglib"></bean>
 </beans>
 

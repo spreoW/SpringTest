@@ -11,6 +11,14 @@ import java.lang.reflect.Proxy;
 public class Consumer {
     public static void main(String[] args) {
         final Product product = new Product();
+        /**
+         * ClassLoader loader:
+         *      获取被代理类的类加载器
+         * Class<?>[] interfaces：
+         *      获取被代理类的实现接口的数组
+         * InvocationHandler h：
+         *      在invok方法中对方法做增强处理
+         */
         IProduct proxyProduct = (IProduct) Proxy.newProxyInstance(product.getClass().getClassLoader(), product.getClass().getInterfaces(), new InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
