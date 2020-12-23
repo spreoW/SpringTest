@@ -15,6 +15,8 @@
         <module name="07bankTransfer" />
         <module name="08Proxy" />
         <module name="09aop" />
+        <module name="10AOPTransfer" />
+        <module name="11JDBCTemplate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -27,6 +29,8 @@
       <module name="07bankTransfer" target="1.6" />
       <module name="08Proxy" target="1.6" />
       <module name="09aop" target="1.6" />
+      <module name="10AOPTransfer" target="1.6" />
+      <module name="11JDBCTemplate" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

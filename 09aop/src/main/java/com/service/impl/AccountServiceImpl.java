@@ -1,11 +1,13 @@
 package com.service.impl;
 
 import com.service.IAccountService;
+import org.springframework.stereotype.Service;
 
 /**
  * @author wangquan
  * @date 2020/12/19
  */
+@Service("accountService")
 public class AccountServiceImpl implements IAccountService {
     @Override
     public void selectAccount() {

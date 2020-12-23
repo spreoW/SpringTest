@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/07bankTransfer/07bankTransfer.iml" filepath="$PROJECT_DIR$/07bankTransfer/07bankTransfer.iml" />
       <module fileurl="file://$PROJECT_DIR$/08Proxy/08Proxy.iml" filepath="$PROJECT_DIR$/08Proxy/08Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/09aop/09aop.iml" filepath="$PROJECT_DIR$/09aop/09aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10AOPTransfer/10AOPTransfer.iml" filepath="$PROJECT_DIR$/10AOPTransfer/10AOPTransfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11JDBCTemplate/11JDBCTemplate.iml" filepath="$PROJECT_DIR$/11JDBCTemplate/11JDBCTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springtest.iml" filepath="$PROJECT_DIR$/.idea/springtest.iml" />
     </modules>
   </component>
