@@ -3,7 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="userDao" class="com.dao.impl.UserDapImpl" />
+    <bean id="userDao" class="com.com.dao.impl.UserDapImpl" />
+    <bean id="userService" class="com.com.service.impl.AccountServiceImpl" />
     <bean id = "student" class="com.pojo.Student" >
         <constructor-arg name="name" value="张三" />
     </bean>

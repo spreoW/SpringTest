@@ -6,21 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="01beanfactory" />
         <module name="02IOCAndDI" />
-        <module name="03bean" />
-        <module name="04DI" />
         <module name="05annotation" />
+        <module name="09aop" />
+        <module name="com-09aop" />
+        <module name="01beanfactory" />
         <module name="06xmlAndIOC" />
         <module name="07bankTransfer" />
+        <module name="com-10AOPTransfer" />
         <module name="08Proxy" />
-        <module name="09aop" />
+        <module name="03bean" />
         <module name="10AOPTransfer" />
         <module name="11JDBCTemplate" />
+        <module name="04DI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="01beanfactory" target="1.5" />
+      <module name="01beanfactory" target="7" />
       <module name="02IOCAndDI" target="1.6" />
       <module name="03bean" target="1.6" />
       <module name="04DI" target="1.5" />
@@ -31,6 +33,8 @@
       <module name="09aop" target="1.6" />
       <module name="10AOPTransfer" target="1.6" />
       <module name="11JDBCTemplate" target="1.6" />
+      <module name="com-09aop" target="1.6" />
+      <module name="com-10AOPTransfer" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

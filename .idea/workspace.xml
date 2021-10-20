@@ -1,93 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="60c483ff-cd70-407d-a68e-5fff197af0ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/dao/IAccountDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/dao/impl/AccountDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/domain/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/service/AccountServiceImpl_OLD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/service/IAccountService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/service/impl/AccountServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/utils/BeanFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/utils/ConnectionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/java/com/utils/TransactionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/main/resources/bean.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10AOPTransfer/src/test/java/test/TestAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/11JDBCTemplate.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/dao/IAccountDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/dao/impl/AccountDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/domain/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/jdbcTemplate/JDBCTemplateTest1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/jdbcTemplate/JDBCTemplateTest2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/jdbcTemplate/JDBCTemplateTest3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/service/IAccountService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/service/impl/AccountServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11JDBCTemplate/src/main/resources/bean.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09aop/src/main/java/com/service/impl/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/09aop/src/main/java/com/service/impl/AccountServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09aop/src/main/java/com/utils/LoggerUtil.java" afterPath="$PROJECT_DIR$/09aop/src/main/java/com/utils/LoggerUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09aop/src/main/resources/bean.xml" afterPath="$PROJECT_DIR$/09aop/src/main/resources/bean.xml" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01beanfactory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01beanfactory/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09aop/com-09aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10AOPTransfer/com-10AOPTransfer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01beanfactory/01beanfactory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01beanfactory/01beanfactory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01beanfactory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01beanfactory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02IOCAndDI/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02IOCAndDI/src/main/resources/bean.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/02IOCAndDI/target/" />
-    <ignored path="$PROJECT_DIR$/01beanfactory/target/" />
-    <ignored path="$PROJECT_DIR$/03bean/target/" />
-    <ignored path="$PROJECT_DIR$/04DI/target/" />
-    <ignored path="$PROJECT_DIR$/05annotation/target/" />
-    <ignored path="$PROJECT_DIR$/07bankTransfer/target/" />
-    <ignored path="$PROJECT_DIR$/06xmlAndIOC/target/" />
-    <ignored path="$PROJECT_DIR$/08Proxy/target/" />
-    <ignored path="$PROJECT_DIR$/09aop/target/" />
-    <ignored path="$PROJECT_DIR$/10AOPTransfer/target/" />
-    <ignored path="$PROJECT_DIR$/11JDBCTemplate/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="JDBCTemplateTest3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/jdbcTemplate/JDBCTemplateTest3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <marker date="1608738425552" expanded="true" signature="848:869" ph="select * fro... account" />
-                <marker date="1608738425552" expanded="true" signature="948:969" ph="select * fro... account" />
-                <marker date="1608738425552" expanded="true" signature="1074:1102" ph="select count... account" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11JDBCTemplate/src/main/java/com/domain/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bean.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11JDBCTemplate/src/main/resources/bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,11 +136,6 @@
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -207,6 +149,7 @@
     <option name="width" value="1664" />
     <option name="height" value="906" />
   </component>
+  <component name="ProjectId" id="1zlqmTDyXzN9VUT9gTs4FhLXFqP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -302,16 +245,32 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/07bankTransfer/src/main/java/com" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01beanfactory/src/main" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\soft\idea\project\learn\SpringTest\01beanfactory\src\main" />
+      <recent name="E:\JavaWorkPase\workPase2020\springtest\11JDBCTemplate\src\main\resources" />
+      <recent name="E:\JavaWorkPase\workPase2020\springtest\11JDBCTemplate\src\main\java" />
+      <recent name="E:\JavaWorkPase\workPase2020\springtest\07bankTransfer" />
+      <recent name="E:\JavaWorkPase\workPase2020\springtest\10AOPTransfer\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JavaWorkPase\workPase2020\springtest\01beanfactory\src\main\java" />
     </key>
@@ -322,104 +281,8 @@
       <recent name="proxy.cglibProxy" />
       <recent name="com.dao.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaWorkPase\workPase2020\springtest\11JDBCTemplate\src\main\resources" />
-      <recent name="E:\JavaWorkPase\workPase2020\springtest\11JDBCTemplate\src\main\java" />
-      <recent name="E:\JavaWorkPase\workPase2020\springtest\07bankTransfer" />
-      <recent name="E:\JavaWorkPase\workPase2020\springtest\10AOPTransfer\src\main\java" />
-      <recent name="E:\JavaWorkPase\workPase2020\springtest\10AOPTransfer\src\main\resources" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.JDBCTemplateTest3">
-    <configuration name="JDBCTemplateTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdbcTemplate.JDBCTemplateTest1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="11JDBCTemplate" />
-      <envs />
-    </configuration>
-    <configuration name="JDBCTemplateTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdbcTemplate.JDBCTemplateTest2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="11JDBCTemplate" />
-      <envs />
-    </configuration>
-    <configuration name="JDBCTemplateTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdbcTemplate.JDBCTemplateTest3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="11JDBCTemplate" />
-      <envs />
-    </configuration>
-    <configuration name="TestAOP.testProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="09aop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestAOP" />
-      <option name="METHOD_NAME" value="testProxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestAccount.testupdateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="10AOPTransfer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestAccount" />
-      <option name="METHOD_NAME" value="testupdateAccount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="Application.UserController (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -427,77 +290,119 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+    <configuration name="JDBCTemplateTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbcTemplate.JDBCTemplateTest3" />
+      <module name="11JDBCTemplate" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.controller.StudentController" />
+      <module name="03bean" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserController (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserController" />
+      <module name="02IOCAndDI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserController (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserController" />
+      <module name="03bean" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.controller.UserController" />
+      <module name="01beanfactory" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestAOP.testProxy" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestAccount.testupdateAccount" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JDBCTemplateTest1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JDBCTemplateTest2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JDBCTemplateTest3" />
+    <list>
+      <item itemvalue="Application.JDBCTemplateTest3" />
+      <item itemvalue="Application.UserController" />
+      <item itemvalue="Application.UserController (1)" />
+      <item itemvalue="Application.StudentController" />
+      <item itemvalue="Application.UserController (2)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JDBCTemplateTest3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JDBCTemplateTest2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JDBCTemplateTest1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestAccount.testupdateAccount" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestAOP.testProxy" />
+      <list>
+        <item itemvalue="Application.UserController (2)" />
+        <item itemvalue="Application.StudentController" />
+        <item itemvalue="Application.UserController (1)" />
+        <item itemvalue="Application.UserController" />
+        <item itemvalue="Application.JDBCTemplateTest3" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="60c483ff-cd70-407d-a68e-5fff197af0ad" name="Default" comment="" />
@@ -508,6 +413,7 @@
       <workItem from="1607650506172" duration="793000" />
       <workItem from="1607656578516" duration="6736000" />
       <workItem from="1607824122039" duration="7845000" />
+      <workItem from="1634733184443" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="2commit">
       <created>1607851918171</created>
@@ -620,7 +526,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -632,8 +538,16 @@
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2commit" />
@@ -648,37 +562,35 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/02IOCAndDI/src/main/java/com/controller/UserController.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/07bankTransfer/src/main/java/com/controller/AccountController.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/07bankTransfer/src/main/java/com/service/AccountServiceImpl_OLD.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/07bankTransfer/src/test/java/com/test/TestAccount.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/10AOPTransfer/src/test/java/test/TestAccount.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/01beanfactory/src/main/java/com/factory/BeanFactory.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://F:/ItheimaVido/jdk_maven/apache-maven-3.2.3/repository/cglib/cglib/2.1_2/cglib-2.1_2.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
